@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-style: none;
+  
+}
+.main{
+  display: flex;
+}
+.body{
+  background-color: #F6F6F6;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .sidebar{
+    width: 15%;
+    height: 100vh;
+    background-color: White;
+    border-right: 1px rgb(211, 206, 206) solid;
+    color: white;
+  }
+  .sidelogo{
+    width: 90%;
+    height: 70px;
+  }
+  .list{
+    display: block;
+    margin-top: 5%;
+  }
+  .sidemenu{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+  }
+  button{
+    height: 50px;
+    justify-items: center;
+    margin-top: 5%;
+  }

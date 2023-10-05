@@ -1,0 +1,18 @@
+.nav{
+    background-color: white;
+    height: 50px;
+    border-bottom: 1px rgb(211, 206, 206) solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navlist{
+    display: flex;
+  
+}
+li{
+    padding: 20px;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+}
