@@ -9,7 +9,7 @@ function Sidebar() {
     <img className='sidelogo' src={ bluelogo } alt="" />
         <ul className='list' >
           <Link to="/dashboard"><li className='sidemenu' >DashBoard</li></Link>
-          <Link to="/Usermanage"> <li className='sidemenu' >User Management</li></Link>
+          <Link to="/usermanagement"> <li className='sidemenu' >User Management</li></Link>
           <Link to="/Userupload"><li className='sidemenu' >User Upload Details</li></Link>
           <Link to="/Usergroups"> <li className='sidemenu' >User Groups</li></Link>
           <Link to="/Useractivity"><li className='sidemenu' >User Activities</li></Link>    

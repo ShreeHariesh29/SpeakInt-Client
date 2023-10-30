@@ -16,11 +16,10 @@ import {
 
 
 function Dashboard() {
+
   const [AdminID, setAdminId] = useState([])
 
-  // axios.get(`http://192.168.70.127:8089/upload_admin_date/${AdminID}`)
-  // .then((response) =>{ console.log(response.data)})
-  
+
 
   const data = [
     {
@@ -166,18 +165,7 @@ function Dashboard() {
         <div style={{display:'flex',justifyContent:'space-between',marginRight:'25px',marginLeft:'25px',marginTop:'20px'}}>
           <div style={{width:'30%',borderRadius:'5px',boxShadow:'2px 2px 4px gray',height:'31vh'}}>
             <p style={{fontFamily:'Arial, Helvetica, sans-serif', marginLeft:'3%', marginTop:'3%'}}>Client Activities</p>
-            {/* <div style={{width:'90%',margin:'6px',height:'23%',display:'flex',borderRadius:'5px', justifyContent:'space-between'}}>
-              <p style={{fontSize:'10px', margin:'5px' , marginLeft:'5px'}}>Total <br /> <span style={{fontSize:'20px',}}>Upload - </span> <span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-              <p style={{fontSize:'10px', margin:'5px',marginRight:'5px'}}>Total <br /> <span style={{fontSize:'20px'}}>Users - </span><span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-            </div>
-            <div style={{width:'90%',margin:'6px',height:'23%',display:'flex',borderRadius:'5px', justifyContent:'space-between'}}>
-              <p style={{fontSize:'10px', margin:'5px' , marginLeft:'5px'}}>Total <br /> <span style={{fontSize:'20px',}}>Upload - </span> <span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-              <p style={{fontSize:'10px', margin:'5px',marginRight:'5px'}}>Total <br /> <span style={{fontSize:'20px'}}>Users - </span><span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-            </div>
-            <div style={{width:'90%',margin:'6px',height:'23%',display:'flex',borderRadius:'5px', justifyContent:'space-between'}}>
-              <p style={{fontSize:'10px', margin:'5px' , marginLeft:'5px'}}>Total <br /> <span style={{fontSize:'20px',}}>Upload - </span> <span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-              <p style={{fontSize:'10px', margin:'5px',marginRight:'5px'}}>Total <br /> <span style={{fontSize:'20px'}}>Users - </span><span  style={{fontSize:'30px', margin:'5px'}} > 45 </span> </p>
-            </div> */}
+           
             <div style={{marginTop:'10px',height:'85%'}}>
             <table style={{width:'90%',marginLeft:'10px',height:'90%', borderRadius:'5px',paddingTop:'5px'}}>
         <thead >

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import logo from './img/- SpeakInt-Blue.png'
 import img1 from './img/Login_Admin-removebg-preview.png'
 import newlogo from './img/Screenshot_2023-10-04_130135-removebg-preview.png'
@@ -23,6 +24,7 @@ const handleChange = (e) =>{
 
 const handleSubmit = (e) =>{
     e.preventDefault();
+   
     console.log(input)
 }
 
@@ -49,7 +51,7 @@ const handleSubmit = (e) =>{
                     </div>
                 </form>
                 <div style={{marginTop:'30px'}}>
-                  <button onClick={handleSubmit} style={{width:'83%',marginLeft:'7%',padding:'10px',backgroundColor:'#0073B8',border:'none',color:'white',fontWeight:'600',borderRadius:'5px',cursor:'pointer'}}> <Link to="/dashboard"> Login </Link></button>
+                  <button onClick= {handleSubmit } style={{width:'83%',marginLeft:'7%',padding:'10px',backgroundColor:'#0073B8',border:'none',color:'white',fontWeight:'600',borderRadius:'5px',cursor:'pointer'}}> <Link to="/dashboard"> Login </Link></button>
                 </div>
             </div>
 
